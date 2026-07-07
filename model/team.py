@@ -29,7 +29,7 @@ class Team:
         return hash(self.ID)
 
     def __str__(self):
-        return f" {self.name}({self.teamCode})"
+        return f" {self.name} ( {self.teamCode})"
     
     def __eq__(self, other):
         return self.ID == other.ID
